@@ -6,7 +6,7 @@ export default function DeveloperTag() {
     <div className="DeveloperTag">
       <a
         id="open-source"
-        href="https://github.com/lenelaurentia/weather-app"
+        href="https://github.com/lenelaurentia/weather-react"
         target="blank"
       >
         Open-source code
