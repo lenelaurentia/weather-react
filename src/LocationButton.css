@@ -1,0 +1,18 @@
+.LocationButton #current-location {
+  display: block;
+  margin: 0 auto;
+  padding: 12px 18px;
+  border-radius: 50px;
+  border: none;
+  background-color: #3a4867;
+  color: whitesmoke;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.LocationButton #current-location:hover {
+  background-color: #627186;
+  transition: all 200ms ease-in-out;
+}
