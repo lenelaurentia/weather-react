@@ -1,6 +1,9 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  width: 540px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .bod-style {
@@ -11,17 +14,9 @@
   border: solid #c2c8cf 2px;
 }
 
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  min-width: 540px;
-  text-align: center;
-  width: 540px;
-}
-
 #divider-bottom,
 #divider-top {
-  background: white;
+  background: grey;
   height: 1px;
   display: block;
   width: 100%;

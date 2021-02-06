@@ -11,7 +11,7 @@ import DeveloperTag from "./DeveloperTag";
 export default function App() {
   return (
     <div className="App">
-      <div class="container">
+      <div className="container">
         <div class="bod-style">
           <City />
           <CurrentWeather />
