@@ -7,7 +7,7 @@ export default function LastUpdate() {
   };
   return (
     <div className="LastUpdate">
-      <div id="update-time">Last updated {data.time}</div>
+      <div>Last updated {data.time}</div>
     </div>
   );
 }

@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import City from "./City";
 import CurrentWeather from "./CurrentWeather";
 import Forecast from "./Forecast";
 import SearchForm from "./SearchForm";
@@ -13,8 +12,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <div class="bod-style">
-          <City />
-          <CurrentWeather />
+          <CurrentWeather defaultCity="Vancouver" />
           <hr id="divider-top" />
           <Forecast />
           <hr id="divider-bottom" />

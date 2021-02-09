@@ -1,3 +1,14 @@
+.City h1 {
+  text-align: center;
+  display: block;
+  padding: 10px 0 0 0;
+  margin: 0 auto;
+  font-family: "Nunito", sans-serif;
+  letter-spacing: 2.5px;
+  font-size: 46px;
+  line-height: 70px;
+}
+
 .CurrentWeather .units {
   display: inline-block;
   font-size: 15px;
@@ -17,20 +28,21 @@
   text-decoration: none;
 }
 
-.CurrentWeather #current-description {
+.CurrentWeather .CurrentDescription {
   font-size: 14px;
   text-align: center;
+  padding-left: 10px;
   color: #6d7888;
 }
 
-.CurrentWeather #current-details {
+.CurrentWeather .col {
   padding-left: 6px;
   position: relative;
   top: 20px;
   color: #96a1b1;
 }
 
-.CurrentWeather #current-div {
+.CurrentWeather .CurrentDiv {
   display: inline-block;
 }
 
@@ -41,26 +53,19 @@
   margin: 0 auto;
 }
 
-.CurrentWeather #current-highlow {
-  padding-right: 4px;
-  position: relative;
-  top: 20px;
-  color: #96a1b1;
-}
-
-.CurrentWeather #current-icon {
+.CurrentWeather .CurrentIcon {
   padding: 10px 220px 0 0;
 }
-.CurrentWeather #current-temp {
+.CurrentWeather .CurrentTemp {
   text-align: center;
   display: inline-block;
-  padding: 0px 0px 10px 50px;
+  padding: 0px 8px 10px 50px;
   font-size: 80px;
   line-height: 60px;
   float: left;
 }
 
-.CurrentWeather #humidity-wind {
+.CurrentWeather ul {
   list-style: none;
   text-align: left;
   padding: 0px;

@@ -1,4 +1,4 @@
-.DeveloperTag #name {
+.DeveloperTag p {
   color: rgb(179, 179, 179);
   font-family: "Nunito", sans-serif;
   display: inline-block;
@@ -8,8 +8,8 @@
   font-size: 12px;
 }
 
-.DeveloperTag #open-source {
-  color: #3a4867;
+.DeveloperTag a {
+  color: #505f80;
   font-family: "Nunito", sans-serif;
   position: relative;
   top: 40px;
@@ -17,7 +17,7 @@
   font-size: 12px;
 }
 
-.DeveloperTag #open-source:hover {
+.DeveloperTag a:hover {
   transition: all 200ms ease-in-out;
   color: rgb(52, 52, 102);
 }
