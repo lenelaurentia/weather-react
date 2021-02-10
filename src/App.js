@@ -4,7 +4,6 @@ import CurrentWeather from "./CurrentWeather";
 import Forecast from "./Forecast";
 import SearchForm from "./SearchForm";
 import LocationButton from "./LocationButton";
-import LastUpdate from "./LastUpdate";
 import DeveloperTag from "./DeveloperTag";
 
 export default function App() {
@@ -18,7 +17,6 @@ export default function App() {
           <hr id="divider-bottom" />
           <SearchForm />
           <LocationButton />
-          <LastUpdate />
           <DeveloperTag />
         </div>
       </div>
