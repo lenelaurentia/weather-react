@@ -1,5 +1,7 @@
 import React from "react";
 import LastUpdate from "./LastUpdate";
+import WeatherIcon from "./WeatherIcon";
+import WeatherTemperature from "./WeatherTemperature";
 
 export default function CurrentWeather(props) {
   return (
@@ -11,21 +13,10 @@ export default function CurrentWeather(props) {
       <LastUpdate date={props.data.date} />
 
       <div className="Weather">
-        <img
-          className="CurrentIcon"
-          src={props.data.imgUrl}
-          alt={props.data.description}
-        />
+        <WeatherIcon code={props.data.icon} />
+
         <div className="CurrentDiv">
-          <div className="CurrentTemp">
-            {Math.round(props.data.temperature)}
-          </div>
-          <div className="units">
-            <a href="/" className="active">
-              °C
-            </a>
-            |<a href="/">°F</a>
-          </div>
+          <WeatherTemperature celcius={props.data.temperature} />
         </div>
         <div className="CurrentDescription">{props.data.description}</div>
         <div className="row">
