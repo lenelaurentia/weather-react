@@ -18,24 +18,24 @@
   font-weight: 300;
 }
 
-.CurrentWeather .units .active {
+.Weather .units .active {
   color: black;
   cursor: default;
   font-weight: bolder;
 }
 
-.CurrentWeather .units .active:hover {
+.Weather .units .active:hover {
   text-decoration: none;
 }
 
-.CurrentWeather .CurrentDescription {
+.Weather .CurrentDescription {
   font-size: 14px;
   text-align: center;
   padding-left: 10px;
   color: #6d7888;
 }
 
-.CurrentWeather .col {
+.Weather .col {
   padding-left: 6px;
   position: relative;
   top: 20px;
