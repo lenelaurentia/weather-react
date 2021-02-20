@@ -6,9 +6,9 @@
 }
 
 .bod-style {
+  border: solid #c2c8cf 2px;
+
   border-radius: 15px;
   margin: 30px;
-
   padding: 16px 30px 0px 30px;
-  border: solid #c2c8cf 2px;
 }

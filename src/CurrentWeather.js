@@ -27,8 +27,8 @@ export default function CurrentWeather(props) {
             </ul>
           </div>
           <div className="col">
-            <div id="current-high">High: {Math.round(props.data.high)} </div>
-            <div id="current-low">Low: {Math.round(props.data.low)} </div>
+            <div id="current-high">High: {Math.round(props.data.high)}°C </div>
+            <div id="current-low">Low: {Math.round(props.data.low)}°C </div>
           </div>
         </div>
       </div>

@@ -43,7 +43,7 @@ export default function Weather(props) {
       <div className="Weather">
         <CurrentWeather data={weatherData} />
         <hr id="divider-top" />
-        <Forecast />
+        <Forecast city={weatherData.city} />
         <hr id="divider-bottom" />
         <div className="SearchForm">
           <form id="search-form" onSubmit={handleSubmit}>
